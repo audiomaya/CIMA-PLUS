@@ -1,0 +1,596 @@
+@import 'nib/vendor'
+@import 'nib/gradients'
+
+gris = #DFDFDF
+rojo = #FF0000
+azul = #041787
+primarioAzul1 = #1C2665
+primarioAzul2 = #010D58
+primarioAzul3 = #3549C3
+primarioAzul4 = #5B69C3
+secAzul1 = #01577C
+secAzul2 = #18485D
+secAzul3 = #003851
+secAzul4 = #3193BD
+secAzul5 = #569EBD
+azulClaro = (rgba( 71, 166, 196, 0.65))
+azulCima = linear-gradient(top, white, azul)
+
+vendor-prefixes = o ms moz webkit
+
+body
+	background-color white
+	font-size 18px
+	font-family 'Oswald',sans-serif
+	margin 0
+	padding 0
+	width 100%
+button
+	background-color rgb(0,193,213)
+	color white
+	border-radius 2em
+	font-size 1.2em
+	padding .5em
+	a
+		text-decoration none
+		color white
+label
+	display block
+h1
+	font-weight 700
+h2
+	font-weight 300
+p
+	font-weight 300
+
+#btnEnviar
+	background-color azul
+	color white
+	border-radius .5em
+	font-size 1.2em
+	padding .5em
+#contVideo
+	border-radius .5em
+	text-align center
+	margin 10%
+	padding auto
+	width 85%
+#contenedorLCis
+	background-image url(../img/imgCisternas.jpg)
+	background-repeat no-repeat
+	background-position right
+	background-color white
+	text-align center
+	height 700px
+	max-width max-content
+		@media screen and (min-width 375px)
+			background url(../img/cimaBodegaG.jpg )no-repeat 90%
+
+#contContact
+	text-align center
+	margin auto
+	width 100%
+	p
+		font-weight 400
+		letter-spacing: 0.1em;
+		line-height 2
+		text-align right
+	h2
+		font-weight 700
+		color rojo
+		text-align right
+
+#foto
+	display inline-block
+	margin auto
+	vertical-align top
+	width 30%
+	img
+		width 70%
+#info
+	display inline-block
+	margin auto
+	vertical-align top
+	width 40%
+#imagen1
+	background url(../img/cimaBodegaG.jpg) no-repeat 100%
+	text-align center
+	margin 10px
+	width 100%
+	@media screen and (min-width 375px)
+			background url(../img/cimaBodegaG.jpg )no-repeat 90%
+#imagen2
+	background url(../img/cimaMundo.jpg) no-repeat 100%
+	border-radius 0 2em 2em 0
+	text-align center
+	margin 10px
+	width 100%
+	@media screen and (min-width 375px)
+			background url(../img/cimaMundo.jpg )no-repeat 90%
+#imagen3
+	border-radius 0 2em 2em 0
+	text-align center
+	margin 10px
+	width 100%
+#imagen4
+	background url(../img/materialEle.jpg) no-repeat 100%
+	border-radius 0 2em 2em 0
+	text-align center
+	margin 10px
+	width 100%
+	@media screen and (min-width 375px)
+			background url(../img/materialEle.jpg )no-repeat 90%
+#logo
+	background azulCima
+	width 99%
+#main
+	display block
+	border-color black
+	border thin
+	overflow hidden
+	margin 0 auto
+	main-height 475px
+	width 90%
+
+	img
+		width 80%
+		margin auto
+#main li
+	float left
+	height 96px
+	list-style none outside none
+	margin 6px
+	position relative
+	width 125px
+#main ul
+	overflow hidden
+#main ul.hidden
+	display none
+#mapa
+	background azulCima
+	margin auto
+	width 60%
+	img
+		width 100%
+#marcas
+	background rojo
+	width 100%
+#mm0
+	background azulCima
+	color white
+	font-size 1.2em
+	height 50px
+	border 1px solid black
+	width 50%
+
+#pie
+	background azulCima
+	width 100%
+	text-align center
+#registro
+	background azulCima
+	border-radius .5em
+	position relative
+	padding 2em
+	margin  auto
+	text-align left
+	ul
+		list-style none
+
+#slider
+	border-color black
+	position relative
+	width 100%
+	overflow hidden
+	z-index 10
+	ul
+		list-style none
+		position relative
+		li
+			float left
+
+#right
+	color white
+	border-radius .5em
+	position relative
+	font-size 2em
+	float right
+	width 60px
+	margin 10px
+	padding .2em
+	text-align center
+	cursor pointer
+	animation 2s right infinite
+@keyframes right
+	0%
+		background white
+		color black
+	100%
+		background rgb(65,182,230)
+
+#left
+	background rgb(65,182,230)
+	color white
+	border-radius .5em
+	font-size 2em
+	padding .2em
+	position static
+	text-align center
+	float left
+	width 60px
+	margin 10px
+	cursor pointer
+	animation 2.8s right infinite
+@keyframes right
+	0%
+		background white
+		color black
+	100%
+		background rgb(65,182,230)
+#numbers
+	text-align center
+	list-style none
+	width 105px
+	li
+		position relative
+		float left
+		width 15px
+		height 15px
+		margin 0 50px
+		border 1px solid #ccc
+
+.banner
+	border-radius 2em
+	text-align center
+	max-width 100%
+	padding 0
+	margin 0px
+	position static
+	img
+		border-radius 0 5em 0
+		box-shadow 7px 7px 5px 0px (rgba(50, 50, 50, 0.45))
+		width 70%
+
+.bannerP
+	position absolute
+	top 0px
+	left -232px
+	display block
+	width 200px
+	height 200px
+.confianza
+
+	margin auto
+	width 90%
+	img
+		padding 0 0 0 30px
+		width 22%
+
+.container
+	margin 10px auto
+	overflow auto
+	width 70%
+	#navbar
+		background-color black
+		display block
+		height 40px
+	#navbar a
+		color gris
+		display inline-block
+		height 40px
+		line-height 37px
+		padding 0 10px
+	#navbar a.active, #navbar a:hover
+		background-color #333
+		border-radius .5em
+		a
+			text-decoration none
+			outline none
+			color gris
+			display inline-block
+			height 40px
+			line-height 37px
+			padding 0 10px
+.contProductos
+	background grey
+	position relative
+	width 70%
+	height 100%
+	z-index 50000
+	float left
+	display inline-block
+	vertical-align top
+
+.contSlider
+	width 100%
+	text-align center
+	float right
+	border-left 1px solid black
+	border-top 1px solid black
+	border-right 1px solid black
+	border-bottom 1px solid black
+
+.contenedorV
+	overflow hidden
+	padding-bottom 56.25%
+	padding-top 30px
+	position relative
+	text-align center
+	width 100%
+	iframe, object, embed, video
+		height 100%
+		left 0
+		position absolute
+		top 0
+		width 100%
+	@media screen and (min-width 400px)
+		width 100%
+		@media screen and (min-width 600px)
+			width 100%
+			@media screen and (min-width 800px)
+				width 100%
+				@media screen and (min-width 1200px)
+					width 100%
+
+.coverflow
+	perspective 2000
+	perspective-origin 480px 300px
+.coverflow ul
+	margin 0
+	padding 0
+	width 50000px
+	transform-style preserve-3d
+	height 550px
+.coverflow ul li
+	margin-left -160px
+	margin-right -160px
+	text-align center
+	transition all 0.5s ease-in-out
+	z-index 1
+	border 2px solid white
+.coverflow ul li .left
+	transform-rotate Y (45deg)
+	transform-origin 0px
+	transform scale(0.75, 0.75) translateY (-20px)
+.coverflow ul li .right
+	transform rotateY -45deg
+	transform-origin 400px
+	transform scale(0.75, 0.75) translateY (-20px)
+.coverflow ul li .current
+	background #FFF
+	width 400px
+	margin-left -100px
+	margin-right -100px
+	transform-origin 200px
+	transform tranlateZ 100px
+	z-index 1000
+.pieInfo
+	width 45%
+	display inline-block
+	vertical-align top
+.pieInfo1
+	width 45%
+	display inline-block
+	vertical-align top
+.publicidad
+	background-color #00FFFF
+	width 25%
+	display inline-block
+	vertical-align top
+
+.productos1
+	background azulClaro
+	border-radius 0 0 1em 1em
+	color white
+.productos2
+	background azulClaro
+	border-radius 0 0 1em 1em
+	color white
+.texto
+	h1
+		font-size 2.4em
+	h2
+		color rojo
+		font-size 1.4em
+	h3
+		font-size 1.6em
+	p
+		font-size 1.2em
+	/*background-color (rgba( 71, 166, 196, 0.65))*/
+	border-radius 0 0 2em 2em
+	display table
+	width 400px
+
+	text-align center
+	@media screen and (min-width 320px)
+			background (rgba( 16,24,32, 0.80))
+			border-radius 0px
+			color white
+			width 100%
+		@media screen and (min-width 1159px)
+			background none
+			color black
+			width 400px
+.text1
+	background-color rgb(254,221,0)
+	border-radius .5em
+	text-align left
+	margin 20px
+	padding 0 0 0 5px
+	width 40%
+.text2
+	background-color rgb(238,212,132)
+	border-radius .5em
+	text-align left
+	margin 20px
+	padding 0 0 0 5px
+	width 40%
+.text3
+	background-color rgb(236,216,152)
+	border-radius .5em
+	text-align left
+	margin 20px
+	padding 0 0 0 5px
+	width 40%
+.text4
+	background-color rgb(248,224,142)
+	border-radius .5em
+	text-align left
+	margin 20px
+	padding 0 0 0 5px
+	width 40%
+
+.titulo
+	box-sizing border-box
+	border-radius .5em
+	padding 10px 0 0 10px
+	text-align center
+	width 30%
+
+.tituloPro
+	background red
+	border-radius 0 0 1em 1em
+	box-shadow 7px 7px 5px 0px (rgba(50, 50, 50, 0.45))
+	color gris
+	margin auto
+	text-align center
+	text-shadow 7px 7px 5px 0px (rgba(50, 50, 50, 0.75))
+	width 50%
+.servicios
+	background-color secAzul5
+	border-spacing 2px
+	box-shadow inset 10px 10px 5px 0px (rgba(0,56,81,1))
+	color white
+	margin 50px auto
+	padding .5em
+	text-align center
+	width 100%
+	img
+		border-radius 10%
+		width 50%
+.menu
+	position relative
+	margin auto
+	display block
+	width 50%
+	float right
+	ul
+		list-style-type none
+		float right
+		margin 2em 4em 0 0
+		display block
+		li
+			text-decoration none
+			display inline
+			margin 7px
+			a
+				color white
+				text-decoration none
+				vertical-align top
+
+.vid
+	width 50%
+
+@media screen and (min-width:320px)
+	#logo
+		background transparent
+	#registro
+		width 80%
+
+	.contProductos
+		width 100%
+	.uno
+
+		border-radius .5em
+		color black
+		padding .5em
+		text-align center
+		display-inline block
+		vertical-align top
+		width 100%
+	.dos
+		background-color white
+		border-radius .5em
+		box-shadow 7px 7px 5px 0px (rgba(50, 50, 50, 0.75))
+		color black
+		position relative
+		padding .5em
+		text-align center
+		display-inline block
+		vertical-align top
+		width 100%
+	.productos1
+		padding 0
+		margin 0
+		width 100%
+	.productos2
+		padding 0
+		margin 0
+		width 100%
+	.tres
+		background-color white
+		border-radius .5em
+		box-shadow 7px 7px 5px 0px (rgba(50, 50, 50, 0.75))
+		position relative
+		color black
+		padding .5em
+		text-align center
+		display-inline block
+		vertical-align top
+		width 100%
+@media screen and (min-width:802px)
+	#logo
+		background azulCima
+	#registro
+		width 50%
+	.uno
+		margin .5em
+		padding .5em
+
+		text-align center
+		display table-cell
+		vertical-align top
+		width 25%
+	.dos
+		border-radius .5em
+		position relative
+		margin 2em .5em
+		padding .5em
+		text-align center
+		display inline-block
+		vertical-align top
+		width 21%
+	.productos1
+		background azulClaro
+		border-radius 0 0 1em 1em
+		color white
+		display inline-block
+		inline-table table
+		width 43%
+		text-align center
+		padding 1em
+		margin .8em
+		position relative
+		top 0px
+		left 0px
+		vertical-align top
+	.productos2
+		display inline-block
+		inline-table table
+		width 43%
+		text-align center
+		padding 1em
+		margin .8em
+		position relative
+		top 0px
+		left 0px
+		vertical-align middle
+	.tres
+		border-radius .5em
+		position relative
+		margin  2em .5em
+		padding .5em
+		text-align center
+		display inline-block
+		vertical-align top
+		width 21%

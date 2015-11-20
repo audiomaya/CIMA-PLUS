@@ -1,0 +1,1 @@
+function enviar_datos_ajax(){var e=document.getElementById("nombre").value,a=document.getElementById("apaterno").value,t=document.getElementById("nombre").value,n="mail.php";$.ajax({type:"post",url:n,data:{nombre:e,apaterno:a,amaterno:t},success:function(e){$("#mostrardatos").html(e)}})}

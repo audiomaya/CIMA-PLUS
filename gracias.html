@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" style="height:100;">
+<head>
+	<meta charset="UTF-8"/>
+	<meta description="CIMA empresa dedicada a la distribución de material eléctrico, industrail, contamos con las mejores marcas del mercado."/>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+	<title>Cima distribución de material eléctrico...</title>
+	<link rel="stylesheet" href="static/css/normalize.css" >
+	<link rel="stylesheet" href="static/css/estilos.css" >
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div id="logo">
+				<nav class="menu">
+						<ul id="mobileMenu">
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="productos.html">Productos</a>
+							</li>
+							<li>
+								<a href="servicios.html">Servicios</a>
+							</li>
+							<li>
+								<a href="contacto.html">Contacto</a>
+							</li>
+						</ul>
+				</nav>
+				<a href="index.html">
+					<figure id="logo">
+						<img src="static/img/cima_logo.png" alt="Logo de CIMA" width="20%">
+					</figure>
+				</a>
+		</div>
+	</header>
+	
+	<footer id="pie">
+		<div class="pieInfo">
+			<p>CIMA DISTRIBUCION DE MATERIALES ELÉCTRICOS, S.A. DE C.V.</p>
+			<p>Programa una cita y un representante te visitara hasta tus instalaciones</p>
+			<button><a href="contacto.html">Hacer cita</a></button>
+		</div>
+		<div class="pieInfo1">
+			<p><a href="contacto.html">Contáctanos</a></p>
+			<p>Testimonios</p>
+			<p>Clientes</p>
+			<p>Curriculum</p>
+		</div>
+	</footer>
+	<script src="static/js/jquery-2.1.1.min.js"></script>
+	<script src="static/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="static/js/slick.min.js"></script>
+	<script src="static/js/mobilemenu.js"></script>
+	<script type="text/javascript" src="static/js/estilos.js"></script>
+	<script>
+		$(function(){
+			$('#mobileMenu').mobileMenu({
+				combine: false,
+				switchWidth: 800,
+				topOptionText: 'Menu',
+				prependTo: '.menu'
+			});
+		})
+	</script>
+</body>
+</html>

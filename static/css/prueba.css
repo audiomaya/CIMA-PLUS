@@ -1,0 +1,23 @@
+.coverflow ul li .left: {
+	-webkit-transform: rotateY( 45deg );
+	-webkit-transform-origin: 0px;
+	-moz-transform: scale(0.75, 0.75) translateY(-20px);
+}
+.coverflow ul li .right: {
+	-webkit-transform: rotateY( -45deg );
+	-webkit-transform-origin: 400px;
+	-moz-transform: scale(0.75, 0.75) translateY(-20px);
+}
+.coverflow
+{
+	-webkit-perspective: 2000;
+	-webkit-perspective-origin: 480px 300px;
+}
+.coverflow ul
+{
+	margin: 0;
+	padding: 0;
+	width: 50000px;
+	-webkit-transform-style: preserve-3d;
+	height: 550px;
+}
