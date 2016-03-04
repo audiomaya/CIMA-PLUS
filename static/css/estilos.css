@@ -463,9 +463,11 @@ p {
   vertical-align: top;
 }
 .pieInfo1 {
-  width: 45%;
   display: inline-block;
+  margin-top: 90px;
+  text-align: left;
   vertical-align: top;
+  width: 45%;
 }
 .publicidad {
   background-color: #0ff;
@@ -608,12 +610,32 @@ p {
 .vid {
   width: 50%;
 }
+.ventana {
+  background-color: #01577c;
+  -webkit-border-radius: 0.5em;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding: 0.2em;
+  postion: fixed;
+  width: 80%;
+}
 @media screen and (min-width: 320px) {
   #logo {
     background: transparent;
   }
   #registro {
     width: 80%;
+  }
+  .cont2 {
+    width: 100%;
+  }
+  .contDer {
+    width: 100%;
+  }
+  .contIzq {
+    width: 100%;
   }
   .contProductos {
     width: 100%;
@@ -638,6 +660,9 @@ p {
     display-inline: block;
     vertical-align: top;
     width: 100%;
+  }
+  .img2 {
+    display: none;
   }
   .productos1 {
     padding: 0;
@@ -689,6 +714,9 @@ p {
     display: inline-block;
     vertical-align: top;
     width: 21%;
+  }
+  .img2 {
+    display: none;
   }
   .productos1 {
     background: rgba(71,166,196,0.65);

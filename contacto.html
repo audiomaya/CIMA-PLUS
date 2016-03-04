@@ -3,36 +3,41 @@
 <head>
 	<meta charset="UTF-8"/>
 	<meta description="CIMA empresa dedicada a la distribución de material eléctrico, industrail, contamos con las mejores marcas del mercado."/>
-	<meta name="viewport" content="width=device-whith, initial-scale=1, maximum-scale=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 	<title>Cima distribución de material eléctrico...</title>
+	<script src="../bower_components/webcomponentsjs/webcomponents.js"></script>
+	<link rel="import" href="bower_components/google-map/google-map.html">
+	<link rel="import" href="bower_components/paper-card/paper-card.html">
+	<link rel="import" href="bower_components/paper-styles/paper-styles.html">
+	<link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
 	<link rel="stylesheet" href="static/css/normalize.css" >
 	<link rel="stylesheet" href="static/css/estilos.css" >
 
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 	<header>
 		<div id="logo">
 			<nav class="menu">
-					<ul id="mobileMenu">
-						<li>
-							<a href="index.html">Inicio</a>
-						</li>
-						<li>
-							<a href="productos.html">Nuestros Productos</a>
-						</li>
-						<li>
-							<a href="servicios.html">Ingenieria</a>
-						</li>
-						<li>
-							<a href="mantenimiento.html">Mantenimiento</a>
-						</li>
-						<li>
-							<a href="contacto.html">Contacto</a>
-						</li>
-					</ul>
+				<ul id="mobileMenu">
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="productos.html">Nuestros Productos</a>
+					</li>
+					<li>
+						<a href="servicios.html">Ingeniería</a>
+					</li>
+					<li>
+						<a href="mantenimiento.html">Mantenimiento</a>
+					</li>
+					<li>
+						<a href="contacto.html">Contacto</a>
+					</li>
+				</ul>
 			</nav>
 
 				<a href="#">
@@ -42,85 +47,99 @@
 				</a>
 		</div>
 	</header>
-	<figure id="imagen3">
-			<video class="vid" autoplay loop preload>
-				<source type="video/mp4" src="static/video/cima.mp4.mp4" ></source>
-			</video>
-	</figure>
 
-	<div id="mapa">
-		<h1 class="tituloPro">Conoce nuestras sucursales</h1>
-		<img src="static/img/mapa.png" alt="">
+
+	<div id="mapa" image="static/img/cima_logo.png">
+		<paper-card heading="Sucursales" image="static/img/cima_logo.png">
+		  <div class="card-content">CIMA QUERETARO</div>
+			<div class="card-content">CIMA IRAPUATO</div>
+			<div class="card-content">CIMA ESTADO DE MEXICO</div>
+			<div class="card-content">CIMA DISTRITO FEDERAL</div>
+		</paper-card>
+		<style>
+			google-map {
+				width: 60%;
+				margin: auto;
+				height: 600px;
+			}
+		</style>
+		<google-map latitude="20.6895647" longitude="-101.3389732" fit-to-markers>
+		  <google-map-marker latitude="20.6895647" longitude="-101.3389732"
+		      draggable="true" title="Go Giants!"></google-map-marker>
+		  <google-map-marker latitude="19.5078499" longitude="-99.10484209999998"></google-map-marker>
+			<google-map-marker latitude="20.5937789" longitude="-100.391413"></google-map-marker>
+			<google-map-marker latitude="19.4182684" longitude="-99.13729389999997"></google-map-marker>
+
+		</google-map>
 	</div>
 
-	<form method="POST" id="registro" action="static/php/formcima.php" onsubmit="return validar ()">
+	<form name="mail_frm" id="registro" action="static/php/formcima.php" method="post" enctype="application/x-www-form-urlencoded">
 		<hgroup>
-			<h1>Cotizaciones</h1>
-			<h2>Cuéntanos que necesitas y con gusto lo cotizamos.</h2>
+			<h1>COTIZACIONES</h1>
+			<h2>CUENTANOS QUE NECESITAS Y CON GUSTO LO COTIZAMOS.</h2>
 		</hgroup>
 		<ul>
 			<li ng-app>
-				<label for="register-name">¿Cual es su nombre?</label>
+				<label for="register-name">¿CUAL ES SU NOMBRE?</label>
 				<input type="text" id="nombre" name="nombre" required aria-required="true" placeholder="Nombre" ng-model="nombre">
-				<h2>Hola {{nombre}}!</h2>
+				<h2>HOLA {{nombre}}!</h2>
 			</li>
 			<li>
-				<label for="register-name">Nombre de la empresa</label>
+				<label for="register-name">NOMBRE DE LA EMPRESA</label>
 				<input type="text" id="empresa" name="empresa" required aria-required="true" placeholder="Empresa">
 			</li>
 			<li>
-				<label for="address">e-Mail</label>
+				<label for="address">E-Mail</label>
 				<input type="email" id="direccion" name="direccion" required aria-required="true" placeholder="e-Mail">
 			</li>
 			<li>
-				<label for="phone">Tel:</label>
+				<label for="phone">TEL:</label>
 				<input type="tel" id="telefono" name="telefono" required aria-required="true" placeholder="Telefono">
 			</li>
-			<p>¿Por cual de nuestro servicios estas interesado?</p>
+			<p>¿POR CUAL DE NUESTROS SERVICIOS ESTAS INTERESADO?</p>
 			<li>
-				<label for="upsell">Material de ferreteria</label>
+				<label for="upsell">MATERIAL DE FERRETERIA</label>
 				<input type="checkbox" id="ferreteria" name="ferreteria">
 			</li>
 			<li>
-				<label for="upsell">Material eléctrico</label>
+				<label for="upsell">MATERIAL ELECTRICO</label>
 				<input type="checkbox" id="electrico" name="electrico">
 			</li>
 			<li>
-				<label for="upsell">CIMA Ingenieros</label>
+				<label for="upsell">CIMA INGENIEROS</label>
 				<input type="checkbox" id="ingenieros" name="ingenieros">
 			</li>
 			<li>
-				<label for="upsell">CIMA Mantenimiento</label>
+				<label for="upsell">CIMA MANTENIMIENTO</label>
 				<input type="checkbox" id="mantenimiento" name="mantenimiento">
 			</li>
 			<li>
-				<label for="upsell">CIMA Inspección de cisternas</label>
+				<label for="upsell">CIMA INSPECCION DE CISTERNAS</label>
 				<input type="checkbox" id="cisternas" name="cisternas">
 			</li>
 			<li>
-				<label for="upsell">Deseas recibir info de promociones y servicios</label>
+				<label for="upsell">DESEAS RECIBIR INFORMACION ADICIONAL</label>
 				<input type="checkbox" id="promociones" name="promociones">
 			</li>
 			<li>
-				<label for="mensaje">Mensaje</label>
+				<label for="mensaje">MENSAJE</label>
 				<textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
 			</li>
 			<li>
-				<input type="submit" id="btnEnviar" value="Enviar"><a ></a>
+				<button value="Enviar">Enviar</button>
 			</li>
 		</ul>
 	</form>
 	<footer id="pie">
 		<div class="pieInfo">
 			<p>CIMA DISTRIBUCION DE MATERIALES ELÉCTRICOS, S.A. DE C.V.</p>
-			<p>Programa una cita y un representante te visitara hasta tus instalaciones</p>
-			<button><a href="contacto.html">Hacer cita</a></button>
+			<p>PROGRAMA UNA CITA Y UN REPRESENTANTE TE VISITARA HASTA TUS INSTALACIONES</p>
+			<button><a href="contacto.html">HACER CITA</a></button>
 		</div>
 		<div class="pieInfo1">
-			<p><a href="contacto.html">Contáctanos</a></p>
-			<p>Testimonios</p>
-			<p>Clientes</p>
-			<p>Curriculum</p>
+			<p><a href="contacto.html">CONTACTANOS:</a></p>
+			<p>TELEFONOS: 5365-5644 / 5365-5733 / 5365-5782 / 5365-0491</p>
+			<p>E-MAIL: contacto@cimadistribucion.com.mx</p>
 		</div>
 	</footer>
 

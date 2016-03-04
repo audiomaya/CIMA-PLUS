@@ -11,11 +11,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/form.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/form.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/gracias.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gracias.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/mantenimiento.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mantenimiento.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -45,33 +72,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/productos.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/prueba.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/prueba.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pruebaMenu.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pruebaMenu.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/pruebaQuicksand.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pruebaQuicksand.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -168,6 +168,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/static\/img\/bannerCimaIng.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75730,
+		"inputAbbreviatedPath": "\/static\/img\/bannerCimaIng.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/bannerCimaIng.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/img\/bimbo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -256,6 +267,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/static\/img\/cimaMant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130673,
+		"inputAbbreviatedPath": "\/static\/img\/cimaMant.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/cimaMant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/img\/cimaMantenimiento.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -277,6 +299,248 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/static\/img\/control\/allen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29528,
+		"inputAbbreviatedPath": "\/static\/img\/control\/allen.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/allen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/autonics.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41995,
+		"inputAbbreviatedPath": "\/static\/img\/control\/autonics.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/autonics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/baldor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29776,
+		"inputAbbreviatedPath": "\/static\/img\/control\/baldor.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/baldor.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/balluff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27406,
+		"inputAbbreviatedPath": "\/static\/img\/control\/balluff.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/balluff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/bticino.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36886,
+		"inputAbbreviatedPath": "\/static\/img\/control\/bticino.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/bticino.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/danfoss.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46373,
+		"inputAbbreviatedPath": "\/static\/img\/control\/danfoss.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/danfoss.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/eaton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33128,
+		"inputAbbreviatedPath": "\/static\/img\/control\/eaton.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/eaton.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/finder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29785,
+		"inputAbbreviatedPath": "\/static\/img\/control\/finder.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/finder.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/fluke.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30464,
+		"inputAbbreviatedPath": "\/static\/img\/control\/fluke.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/fluke.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/himel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39092,
+		"inputAbbreviatedPath": "\/static\/img\/control\/himel.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/himel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/honeywell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32290,
+		"inputAbbreviatedPath": "\/static\/img\/control\/honeywell.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/honeywell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/omron.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31191,
+		"inputAbbreviatedPath": "\/static\/img\/control\/omron.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/omron.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/orion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40818,
+		"inputAbbreviatedPath": "\/static\/img\/control\/orion.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/orion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/phoenix.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37317,
+		"inputAbbreviatedPath": "\/static\/img\/control\/phoenix.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/phoenix.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/rittal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34707,
+		"inputAbbreviatedPath": "\/static\/img\/control\/rittal.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/rittal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/rockwell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37182,
+		"inputAbbreviatedPath": "\/static\/img\/control\/rockwell.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/rockwell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/schneider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41528,
+		"inputAbbreviatedPath": "\/static\/img\/control\/schneider.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/schneider.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/siemens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28166,
+		"inputAbbreviatedPath": "\/static\/img\/control\/siemens.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/siemens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35574,
+		"inputAbbreviatedPath": "\/static\/img\/control\/square.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/square.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/telemecanique.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35937,
+		"inputAbbreviatedPath": "\/static\/img\/control\/telemecanique.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/telemecanique.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/weg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40809,
+		"inputAbbreviatedPath": "\/static\/img\/control\/weg.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/weg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/control\/yaskawa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39511,
+		"inputAbbreviatedPath": "\/static\/img\/control\/yaskawa.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/control\/yaskawa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/static\/img\/dist.png": {
 		"fileType": 32768,
@@ -333,6 +597,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/static\/img\/fusibles\/acemsa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40807,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/acemsa.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/acemsa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/difus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36605,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/difus.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/difus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/driwisa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27132,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/driwisa.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/driwisa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/electricMe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67289,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/electricMe.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/electricMe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/ferraz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31083,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/ferraz.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/ferraz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/karp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22142,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/karp.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/karp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/siba.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28814,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/siba.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/siba.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/fusibles\/steren.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44725,
+		"inputAbbreviatedPath": "\/static\/img\/fusibles\/steren.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/fusibles\/steren.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/ilum\/solaled.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25999,
+		"inputAbbreviatedPath": "\/static\/img\/ilum\/solaled.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/ilum\/solaled.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/img\/imgCisternas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -375,7 +738,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosControl\/balluff.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosControl\/hubbell.png": {
 		"fileType": 32768,
@@ -386,7 +749,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosControl\/hubbell.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosControl\/moeller.png": {
 		"fileType": 32768,
@@ -397,7 +760,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosControl\/moeller.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosControl\/pepperl.jpg": {
 		"fileType": 16384,
@@ -408,7 +771,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosControl\/pepperl.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosControl\/turck.jpg": {
 		"fileType": 16384,
@@ -419,7 +782,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosControl\/turck.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosControl\/yaskawa.png": {
 		"fileType": 32768,
@@ -430,7 +793,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosControl\/yaskawa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/abb.jpg": {
 		"fileType": 16384,
@@ -441,7 +804,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/abb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/advance.png": {
 		"fileType": 32768,
@@ -529,7 +892,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/bussmann.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/cablofil.png": {
 		"fileType": 32768,
@@ -617,7 +980,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/duraled.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/eagle.png": {
 		"fileType": 32768,
@@ -628,7 +991,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/eagle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/ferraz_shawmut.png": {
 		"fileType": 32768,
@@ -639,7 +1002,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/ferraz_shawmut.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/general_cable.png": {
 		"fileType": 32768,
@@ -661,7 +1024,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/havels.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/Holophane.png": {
 		"fileType": 32768,
@@ -705,7 +1068,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/illux.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/isb.jpg": {
 		"fileType": 16384,
@@ -716,7 +1079,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/isb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/iusa.png": {
 		"fileType": 32768,
@@ -771,7 +1134,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/ledco.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/LEGRAND.png": {
 		"fileType": 32768,
@@ -793,7 +1156,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/littelfuse.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/logo_cablofil.png": {
 		"fileType": 32768,
@@ -815,7 +1178,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/magg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/mersen.jpg": {
 		"fileType": 16384,
@@ -826,7 +1189,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/mersen.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/necaxa-bticino.png": {
 		"fileType": 32768,
@@ -861,16 +1224,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/static\/img\/logosEle\/OSRAM.png": {
+	"\/static\/img\/logosEle\/osram.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49514,
-		"inputAbbreviatedPath": "\/static\/img\/logosEle\/OSRAM.png",
-		"outputAbbreviatedPath": "\/static\/img\/logosEle\/OSRAM.png",
+		"inputAbbreviatedPath": "\/static\/img\/logosEle\/osram.png",
+		"outputAbbreviatedPath": "\/static\/img\/logosEle\/osram.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/panduit-logo.jpg": {
 		"fileType": 16384,
@@ -914,15 +1277,15 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/philco.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/static\/img\/logosEle\/Philips.png": {
+	"\/static\/img\/logosEle\/philips.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 83914,
-		"inputAbbreviatedPath": "\/static\/img\/logosEle\/Philips.png",
-		"outputAbbreviatedPath": "\/static\/img\/logosEle\/Philips.png",
+		"inputAbbreviatedPath": "\/static\/img\/logosEle\/philips.png",
+		"outputAbbreviatedPath": "\/static\/img\/logosEle\/philips.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -958,7 +1321,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/siba.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/Siemens-electrodomesticos.png": {
 		"fileType": 32768,
@@ -980,7 +1343,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/siemens.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/SLI-Light-logo.png": {
 		"fileType": 32768,
@@ -1035,7 +1398,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/steren.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/tecno_lite.png": {
 		"fileType": 32768,
@@ -1046,7 +1409,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/tecno_lite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/Thorsman copia.png": {
 		"fileType": 32768,
@@ -1068,7 +1431,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/tishman.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosEle\/viakon.png": {
 		"fileType": 32768,
@@ -1090,7 +1453,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosEle\/voltech.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/3m.jpg": {
 		"fileType": 16384,
@@ -1101,7 +1464,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/3m.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/adex.jpg": {
 		"fileType": 16384,
@@ -1112,7 +1475,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/adex.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/adir.jpg": {
 		"fileType": 16384,
@@ -1123,7 +1486,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/adir.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/austromex.jpg": {
 		"fileType": 16384,
@@ -1136,16 +1499,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/static\/img\/logosFerr\/BOSCH.jpg": {
+	"\/static\/img\/logosFerr\/bosch.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 52137,
-		"inputAbbreviatedPath": "\/static\/img\/logosFerr\/BOSCH.jpg",
-		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/BOSCH.jpg",
+		"inputAbbreviatedPath": "\/static\/img\/logosFerr\/bosch.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/bosch.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/cabel.jpg": {
 		"fileType": 16384,
@@ -1156,7 +1519,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/cabel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/chicago.png": {
 		"fileType": 32768,
@@ -1167,7 +1530,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/chicago.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/disston.jpg": {
 		"fileType": 16384,
@@ -1178,18 +1541,18 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/disston.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/static\/img\/logosFerr\/FANDELI.jpg": {
+	"\/static\/img\/logosFerr\/fandeli.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 35123,
-		"inputAbbreviatedPath": "\/static\/img\/logosFerr\/FANDELI.jpg",
-		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/FANDELI.jpg",
+		"inputAbbreviatedPath": "\/static\/img\/logosFerr\/fandeli.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/fandeli.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/fiero.jpg": {
 		"fileType": 16384,
@@ -1200,7 +1563,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/fiero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/foset.jpg": {
 		"fileType": 16384,
@@ -1211,7 +1574,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/foset.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/gimex.jpg": {
 		"fileType": 16384,
@@ -1222,7 +1585,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/gimex.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/goni.jpg": {
 		"fileType": 16384,
@@ -1233,7 +1596,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/goni.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/HELVEX.jpg": {
 		"fileType": 16384,
@@ -1310,7 +1673,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/makita.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/masterLock.png": {
 		"fileType": 32768,
@@ -1321,7 +1684,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/masterLock.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/milwaukee.jpg": {
 		"fileType": 16384,
@@ -1332,7 +1695,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/milwaukee.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/NACOBRE.jpg": {
 		"fileType": 16384,
@@ -1354,7 +1717,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/nicholson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/pennsylvania.png": {
 		"fileType": 32768,
@@ -1365,7 +1728,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/pennsylvania.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/perfect.jpg": {
 		"fileType": 16384,
@@ -1376,7 +1739,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/perfect.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/ridgid.jpg": {
 		"fileType": 16384,
@@ -1387,7 +1750,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/ridgid.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/stanley.png": {
 		"fileType": 32768,
@@ -1398,7 +1761,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/stanley.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/SURTEK.jpg": {
 		"fileType": 16384,
@@ -1420,7 +1783,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/truper.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/tulmex.jpg": {
 		"fileType": 16384,
@@ -1431,7 +1794,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/tulmex.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/URREA.jpg": {
 		"fileType": 16384,
@@ -1453,7 +1816,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/vise-grip.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/voltech.jpg": {
 		"fileType": 16384,
@@ -1464,7 +1827,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/voltech.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/logosFerr\/weller.png": {
 		"fileType": 32768,
@@ -1475,7 +1838,7 @@
 		"outputAbbreviatedPath": "\/static\/img\/logosFerr\/weller.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/static\/img\/lubosa.jpg": {
 		"fileType": 16384,
@@ -1608,6 +1971,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/static\/img\/panel1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136423,
+		"inputAbbreviatedPath": "\/static\/img\/panel1.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/panel1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/panel2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393697,
+		"inputAbbreviatedPath": "\/static\/img\/panel2.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/panel2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/img\/panelC.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 301715,
+		"inputAbbreviatedPath": "\/static\/img\/panelC.jpg",
+		"outputAbbreviatedPath": "\/static\/img\/panelC.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/static\/img\/pepsi.jpg": {
 		"fileType": 16384,
@@ -1752,6 +2148,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/static\/js\/min\/script-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/min\/script-min.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/min\/script-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/static\/js\/mobilemenu.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1774,6 +2181,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/static\/js\/script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/script.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/static\/js\/slick.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1784,6 +2202,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/static\/php\/formcima.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/php\/formcima.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/php\/mail.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/php\/mail.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

@@ -1,0 +1,25 @@
+{
+  "name": "cima",
+  "homepage": "https://github.com/audiomaya/CIMA-PLUS",
+  "authors": [
+    "audiomaya <audiomaya@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "google-map": "GoogleWebComponents/google-map#~1.1.9",
+    "iron-component-page": "PolymerElements/iron-component-page#~1.1.4",
+    "paper-card": "PolymerElements/paper-card#~1.1.0",
+    "iron-swipeable-container": "PolymerElements/iron-swipeable-container#~1.0.2"
+  }
+}
